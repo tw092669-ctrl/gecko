@@ -1,0 +1,5 @@
+{
+  "name": "fazang",
+  "description": "A spiritual mantra counting application with Google Sheets integration capabilities, history tracking, and inspiring visuals.",
+  "requestFramePermissions": []
+}

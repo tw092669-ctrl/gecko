@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Noto Serif TC', serif;
+    background-color: rgb(245 245 244);
+  }
+}
+
+@layer utilities {
+  .font-calligraphy {
+    font-family: 'DFKai-SB', 'BiauKai', '標楷體', 'KaiTi', '楷体', serif;
+    font-weight: 700;
+  }
+  
+  /* Refined glow effect: Sharp shadow for definition + Soft amber aura */
+  .text-glow {
+    text-shadow: 
+      2px 2px 0 rgba(0, 0, 0, 0.7),      /* Hard offset shadow for sharpness */
+      0 0 10px rgba(255, 255, 255, 0.3), /* Subtle inner light */
+      0 0 20px rgba(251, 191, 36, 0.6),  /* Golden aura */
+      0 0 40px rgba(251, 191, 36, 0.3);  /* Wide atmospheric glow */
+  }
+}
